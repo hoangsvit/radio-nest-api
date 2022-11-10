@@ -6,7 +6,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { GraphQLModule } from '@nestjs/graphql';
 import { ItemModule } from './item/item.module';
 import { ConfigModule, ConfigService } from '@nestjs/config';
-import { getTypeOrmModuleOptions } from './config/orm.config';
+import { getTypeOrmModuleOptions } from './config/ormconfig';
 
 @Module({
   imports: [
